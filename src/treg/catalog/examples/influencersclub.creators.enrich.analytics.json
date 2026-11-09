@@ -1,0 +1,128 @@
+{
+  "result": {
+    "instagram": {
+      "posting_frequency_recent_months": 10.329999923706055,
+      "reels_percentage_last_12_posts": 33.33,
+      "has_merch": false,
+      "promotes_affiliate_links": false,
+      "likes_median": 286939.5,
+      "comments_median": 1508.0,
+      "income": {
+        "min": 3645000,
+        "max": 4738700,
+        "currency": "USD"
+      },
+      "creator_follower_growth": {
+        "6_months_ago": 8.8100004196167,
+        "12_months_ago": 9.100000381469727,
+        "3_months_ago": 6.96999979019165,
+        "9_months_ago": 9.4399995803833
+      },
+      "reels": {
+        "avg_like_count": 218618.25,
+        "avg_view_count": 6822527.5,
+        "comments_count": [
+          986,
+          "… 2 more item(s) truncated"
+        ],
+        "median_like_count": 215233.0,
+        "median_view_count": 6711303.0
+      },
+      "hashtags": [
+        "NASA",
+        "… 2 more item(s) truncated"
+      ],
+      "niche_sub_class": [],
+      "locations": [],
+      "tagged": [
+        {
+          "username": "nasaweb…",
+          "userid": "5493138…"
+        }
+      ],
+      "hashtags_count": [
+        {
+          "name": "NASA",
+          "count": 10
+        },
+        "… 2 more item(s) truncated"
+      ],
+      "brands_found": [
+        "ISS"
+      ],
+      "audience": {
+        "audience_followers": {
+          "success": true,
+          "data": {
+            "notable_users_ratio": 0.1075,
+            "audience_credibility": 0.7761,
+            "audience_types": "… [3 item(s) truncated]",
+            "credibility_class": "bad",
+            "audience_reachability": "… [3 item(s) truncated]",
+            "audience_genders": "… [2 item(s) truncated]",
+            "audience_ages": "… [3 item(s) truncated]",
+            "audience_genders_per_age": "… [3 item(s) truncated]",
+            "audience_ethnicities": "… [3 item(s) truncated]",
+            "audience_languages": "… [3 item(s) truncated]",
+            "audience_brand_affinity": "… [3 item(s) truncated]",
+            "audience_interests": "… [3 item(s) truncated]",
+            "audience_geo": "… {4 field(s) truncated}",
+            "audience_lookalikes": "… [3 item(s) truncated]",
+            "notable_users": "… [3 item(s) truncated]"
+          },
+          "is_hidden": true
+        },
+        "audience_commenters": {
+          "success": false,
+          "error": "empty_a…"
+        },
+        "audience_likers": {
+          "success": true,
+          "data": {
+            "notable_users_ratio": 0.116372,
+            "audience_credibility": 0.894081,
+            "audience_types": "… [3 item(s) truncated]",
+            "credibility_class": "normal",
+            "audience_reachability": "… [3 item(s) truncated]",
+            "audience_accounts_created_at": "… [1 item(s) truncated]",
+            "audience_genders": "… [2 item(s) truncated]",
+            "audience_ages": "… [3 item(s) truncated]",
+            "audience_genders_per_age": "… [3 item(s) truncated]",
+            "audience_ethnicities": "… [3 item(s) truncated]",
+            "audience_languages": "… [3 item(s) truncated]",
+            "audience_brand_affinity": "… [3 item(s) truncated]",
+            "audience_interests": "… [3 item(s) truncated]",
+            "audience_geo": "… {4 field(s) truncated}",
+            "notable_users": "… [3 item(s) truncated]"
+          }
+        },
+        "audience_credibility_followers_histogram": [
+          {
+            "max": 0.551226,
+            "total": 8796
+          },
+          "… 2 more item(s) truncated"
+        ],
+        "audience_credibility_likers_histogram": [
+          {
+            "max": 0.806228,
+            "total": 8429
+          },
+          "… 2 more item(s) truncated"
+        ]
+      },
+      "brand_affinity": [
+        {
+          "name": "Apple",
+          "interest": [
+            "Music",
+            "… 1 more item(s) truncated"
+          ]
+        },
+        "… 2 more item(s) truncated"
+      ]
+    }
+  },
+  "credits_cost": 0.8,
+  "trial_searches_left": 10
+}

@@ -1,0 +1,381 @@
+{
+  "metric": {
+    "10DayAverageTradingVolume": 46.55944,
+    "13WeekPriceReturnDaily": 2.3622,
+    "26WeekPriceReturnDaily": 11.4012,
+    "3MonthADReturnStd": 31.256603,
+    "3MonthAverageTradingVolume": 53.24394,
+    "52WeekHigh": 344.5699,
+    "52WeekHighDate": "2026-07-29",
+    "52WeekLow": 223.78,
+    "52WeekLowDate": "2025-08-21",
+    "52WeekPriceReturnDaily": 31.4245,
+    "5DayPriceReturnDaily": -0.7559,
+    "assetTurnoverAnnual": 1.1584,
+    "assetTurnoverTTM": 1.2508,
+    "beta": 1.0738114,
+    "bookValuePerShareAnnual": 4.991,
+    "bookValuePerShareQuarterly": 7.3599,
+    "bookValueShareGrowth5Y": 5.34,
+    "capexCagr5Y": 11.71,
+    "cashFlowPerShareAnnual": 6.6855,
+    "cashFlowPerShareQuarterly": 9.3561,
+    "cashFlowPerShareTTM": 6.86253,
+    "cashPerSharePerShareAnnual": 3.7024,
+    "cashPerSharePerShareQuarterly": 4.2713,
+    "currentDividendYieldTTM": 0.353,
+    "currentEv/freeCashFlowAnnual": 45.308,
+    "currentEv/freeCashFlowTTM": 32.7395,
+    "currentRatioAnnual": 0.8933,
+    "currentRatioQuarterly": 1.0033,
+    "dividendGrowthRate5Y": 4.95,
+    "dividendIndicatedAnnual": 1.08,
+    "dividendPerShareAnnual": 1.0318,
+    "dividendPerShareTTM": 1.0616,
+    "dividendYieldIndicatedAnnual": 0.353796763414794,
+    "ebitdPerShareAnnual": 9.6468,
+    "ebitdPerShareTTM": 11.365,
+    "ebitdaCagr5Y": 13.35,
+    "ebitdaInterimCagr5Y": 7.67,
+    "enterpriseValue": 4474936,
+    "epsAnnual": 7.465,
+    "epsBasicExclExtraItemsAnnual": 7.465,
+    "…": "93 more field(s) truncated"
+  },
+  "metricType": "all",
+  "series": {
+    "annual": {
+      "bookValue": [
+        {
+          "period": "2025-09-27",
+          "v": 73733
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "cashRatio": [
+        {
+          "period": "2025-09-27",
+          "v": 0.21695214060169896
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "currentRatio": [
+        {
+          "period": "2025-09-27",
+          "v": 0.8933
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "ebitPerShare": [
+        {
+          "period": "2025-09-27",
+          "v": 8.8672
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "ebitda": [
+        {
+          "period": "2025-09-27",
+          "v": 144748
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "eps": [
+        {
+          "period": "2025-09-27",
+          "v": 7.465
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "ev": [
+        {
+          "period": "2025-09-27",
+          "v": 3822713.5
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "evEbitda": [
+        {
+          "period": "2025-09-27",
+          "v": 26.4094
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "evRevenue": [
+        {
+          "period": "2025-09-27",
+          "v": 9.1857
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "fcfMargin": [
+        {
+          "period": "2025-09-27",
+          "v": 0.2373
+        },
+        "… 34 more item(s) truncated"
+      ],
+      "grossMargin": [
+        {
+          "period": "2025-09-27",
+          "v": 0.4691
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "inventoryTurnover": [
+        {
+          "period": "2025-09-27",
+          "v": 33.9834
+        },
+        "… 37 more item(s) truncated"
+      ],
+      "longtermDebtTotalAsset": [
+        {
+          "period": "2025-09-27",
+          "v": 0.218
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "longtermDebtTotalCapital": [
+        {
+          "period": "2025-09-27",
+          "v": 0.4511
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "longtermDebtTotalEquity": [
+        {
+          "period": "2025-09-27",
+          "v": 1.0623
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "netDebtToTotalCapital": [
+        {
+          "period": "2025-09-27",
+          "v": 0.3684
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "netDebtToTotalEquity": [
+        {
+          "period": "2025-09-27",
+          "v": 0.8674
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "netMargin": [
+        {
+          "period": "2025-09-27",
+          "v": 0.2692
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "operatingMargin": [
+        {
+          "period": "2025-09-27",
+          "v": 0.3197
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "payoutRatio": [
+        {
+          "period": "2025-09-27",
+          "v": 0.1377
+        },
+        "… 22 more item(s) truncated"
+      ],
+      "pb": [
+        {
+          "period": "2025-09-27",
+          "v": 50.978
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "pe": [
+        {
+          "period": "2025-09-27",
+          "v": 33.5574
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "pfcf": [
+        {
+          "period": "2025-09-27",
+          "v": 38.0568
+        },
+        "… 23 more item(s) truncated"
+      ],
+      "pretaxMargin": [
+        {
+          "period": "2025-09-27",
+          "v": 0.3189
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "ps": [
+        {
+          "period": "2025-09-27",
+          "v": 9.032
+        },
+        "… 25 more item(s) truncated"
+      ],
+      "ptbv": [
+        {
+          "period": "2016-09-24",
+          "v": 4.8643
+        },
+        "… 15 more item(s) truncated"
+      ],
+      "quickRatio": [
+        {
+          "period": "2025-09-27",
+          "v": 0.8588
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "receivablesTurnover": [
+        {
+          "period": "2025-09-27",
+          "v": 11.3725
+        },
+        "… 37 more item(s) truncated"
+      ],
+      "roa": [
+        {
+          "period": "2025-09-27",
+          "v": 0.3118
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "roe": [
+        {
+          "period": "2025-09-27",
+          "v": 1.5191
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "roic": [
+        {
+          "period": "2025-09-27",
+          "v": 0.6451
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "rotc": [
+        {
+          "period": "2025-09-27",
+          "v": 0.7663
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "salesPerShare": [
+        {
+          "period": "2025-09-27",
+          "v": 27.7354
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "sgaToSale": [
+        {
+          "period": "2025-09-27",
+          "v": 0.0663
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "tangibleBookValue": [
+        {
+          "period": "2016-09-24",
+          "v": 125043
+        },
+        "… 15 more item(s) truncated"
+      ],
+      "totalDebtToEquity": [
+        {
+          "period": "2025-09-27",
+          "v": 1.3547
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "totalDebtToTotalAsset": [
+        {
+          "period": "2025-09-27",
+          "v": 0.2781
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "totalDebtToTotalCapital": [
+        {
+          "period": "2025-09-27",
+          "v": 0.5753
+        },
+        "… 40 more item(s) truncated"
+      ],
+      "totalRatio": [
+        {
+          "period": "2025-09-27",
+          "v": 1.2583
+        },
+        "… 40 more item(s) truncated"
+      ]
+    },
+    "quarterly": {
+      "assetTurnoverTTM": [
+        {
+          "period": "2026-06-27",
+          "v": 1.2508
+        },
+        "… 144 more item(s) truncated"
+      ],
+      "bookValue": [
+        {
+          "period": "2026-06-27",
+          "v": 107520
+        },
+        "… 106 more item(s) truncated"
+      ],
+      "cashRatio": [
+        {
+          "period": "2026-06-27",
+          "v": 0.2648165758139909
+        },
+        "… 147 more item(s) truncated"
+      ],
+      "currentRatio": [
+        {
+          "period": "2026-06-27",
+          "v": 1.0033
+        },
+        "… 147 more item(s) truncated"
+      ],
+      "ebitPerShare": [
+        {
+          "period": "2026-06-27",
+          "v": 2.4258
+        },
+        "… 148 more item(s) truncated"
+      ],
+      "ebitda": [
+        {
+          "period": "2026-06-27",
+          "v": 39015
+        },
+        "… 148 more item(s) truncated"
+      ],
+      "eps": [
+        {
+          "period": "2026-06-27",
+          "v": 2.0244
+        },
+        "… 148 more item(s) truncated"
+      ],
+      "ev": [
+        {
+          "period": "2026-06-27",
+          "v": 4182815.8
+        },
+        "… 104 more item(s) truncated"
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "companies": [
+    {
+      "about": {
+        "businessType": "privately-held",
+        "industries": [
+          "digital-payments",
+          "cryptocurrency-trading",
+          "… 4 more item(s) truncated"
+        ],
+        "industry": "financial-services",
+        "languages": [
+          "eng_Latn"
+        ],
+        "name": "PayPal",
+        "nameAlts": [
+          "PayPal.com"
+        ],
+        "nameLegal": "PayPal Inc.",
+        "totalEmployees": "over-10k",
+        "totalEmployeesExact": 36250,
+        "yearFounded": 1999,
+        "yearFoundedPlace": "San Jose, California"
+      },
+      "analytics": {
+        "monthlyVisitors": "10m-50m"
+      },
+      "assets": {
+        "colorPrimary": "#012169",
+        "cover": {
+          "height": 1260,
+          "src": "https://thecompaniesapi.s3.fr-p…",
+          "width": 2400
+        },
+        "logoSquare": {
+          "height": 200,
+          "src": "https://thecompaniesapi.s3.fr-p…",
+          "width": 200
+        }
+      },
+      "codes": {
+        "naics": [
+          "53121"
+        ],
+        "sic": [
+          "62499"
+        ]
+      },
+      "companies": {
+        "acquisitions": [
+          {
+            "domain": "curv.co",
+            "name": "Curv"
+          }
+        ],
+        "subsidiaries": [
+          {
+            "description": "We provide the global commerce …",
+            "domain": "braintreepayments.com",
+            "name": "Braintree"
+          },
+          {
+            "description": "Founded in 2012 and based in Do…",
+            "domain": "joinhoney.com",
+            "name": "Honey"
+          },
+          "… 2 more item(s) truncated"
+        ]
+      },
+      "descriptions": {
+        "primary": "HELP US REIMAGINE MONEY. At Pay…",
+        "tagline": "Pay, send and save money with P…",
+        "website": "From paying friends to saving m…"
+      },
+      "domain": {
+        "alias": "www.paypal.com",
+        "domain": "paypal.com",
+        "domainName": "paypal",
+        "registrar": "MarkMonitor Inc.",
+        "state": "operating",
+        "status": 200,
+        "tld": "com"
+      },
+      "finances": {
+        "revenue": "over-1b",
+        "stockExchange": "NASDAQ",
+        "stockSymbol": "PYPL"
+      },
+      "locations": {
+        "headquarters": {
+          "address": {
+            "geopoint": {
+              "lat": 37.3361663,
+              "lon": -121.890591
+            },
+            "raw": "San Jose, Santa Clara County, C…"
+          },
+          "city": {
+            "code": "san-jose|california|us",
+            "geopoint": {
+              "lat": 37.3361905,
+              "lon": -121.890583
+            },
+            "name": "San Jose"
+          },
+          "continent": {
+            "code": "na",
+            "geopoint": {
+              "lat": 51.0000002,
+              "lon": -109
+            },
+            "name": "North America"
+          },
+          "country": {
+            "code": "us",
+            "geopoint": {
+              "lat": 39.7837304,
+              "lon": -100.4458825
+            },
+            "name": "United States"
+          },
+          "county": {
+            "code": "santa-clara-county|us",
+            "geopoint": {
+              "lat": 37.2333253,
+              "lon": -121.6846349
+            },
+            "name": "Santa Clara County"
+          },
+          "state": {
+            "code": "california|us",
+            "geopoint": {
+              "lat": 36.7014631,
+              "lon": -118.755997
+            },
+            "name": "California"
+          }
+        }
+      },
+      "meta": {
+        "mysqlId": 16743525,
+        "score": 84,
+        "similarity": null,
+        "syncedAt": "phone:3c4638d3beT16:47:02.240Z"
+      },
+      "secondaries": {
+        "emailPatterns": [
+          {
+            "pattern": "[F1][L]",
+            "usagePercentage": 95.1558
+          },
+          {
+            "pattern": "[F].[L]",
+            "usagePercentage": 3.4849
+          },
+          "… 4 more item(s) truncated"
+        ]
+      },
+      "socials": {
+        "facebook": {
+          "id": "paypalturkiye",
+          "url": "https://www.facebook.com/paypal…"
+        },
+        "linkedin": {
+          "idNumeric": "1482",
+          "url": "https://www.linkedin.com/compan…"
+        },
+        "twitter": {
+          "id": "paypal",
+          "url": "https://twitter.com/paypal"
+        },
+        "wellfound": {
+          "id": "paypal",
+          "url": "http://angel.co/paypal"
+        }
+      },
+      "urls": {
+        "registrar": "http://www.markmonitor.com/"
+      }
+    },
+    {
+      "about": {
+        "businessType": "public-company",
+        "industries": [
+          "telecommunications-carriers",
+          "mobile-network-operator",
+          "… 4 more item(s) truncated"
+        ],
+        "industry": "telecommunications",
+        "languages": [
+          "eng_Latn"
+        ],
+        "name": "MTN Group",
+        "nameAlts": [
+          "ayoba"
+        ],
+        "nameLegal": "MTN Group Management Services (…",
+        "totalEmployees": "over-10k",
+        "totalEmployeesExact": 42880,
+        "yearFounded": 1994,
+        "yearFoundedPlace": "South Africa"
+      },
+      "analytics": {
+        "monthlyVisitors": "over-1b"
+      },
+      "assets": {
+        "cover": {
+          "height": 630,
+          "src": "https://thecompaniesapi.s3.fr-p…",
+          "width": 1200
+        },
+        "logoSquare": {
+          "height": 200,
+          "src": "https://thecompaniesapi.s3.fr-p…",
+          "width": 200
+        }
+      },
+      "companies": {
+        "subsidiaries": [
+          {
+            "description": "Lonestar Cell is the leading GS…",
+            "descriptionShort": "Lonestar Cell is the leading GS…",
+            "domain": "lonestarcell.com",
+            "name": "Lonestar Cell MTN"
+          },
+          {
+            "description": "Launched in 1994, the MTN Group…",
+            "descriptionShort": "Launched in 1994, the MTN Group…",
+            "domain": "mtn.com.af",
+            "name": "MTN Afghanistan"
+          },
+          "… 4 more item(s) truncated"
+        ]
+      },
+      "descriptions": {
+        "primary": "MTN Group Limited entered the t…",
+        "tagline": "MTN Group",
+        "website": "MTN is Africa's largest mobile …"
+      },
+      "domain": {
+        "alias": "www.mtn.com",
+        "domain": "mtn.com",
+        "domainName": "mtn",
+        "registrar": "Lexsynergy Limited",
+        "state": "operating",
+        "status": 200,
+        "tld": "com"
+      },
+      "finances": {
+        "revenue": "over-1b",
+        "stockSymbol": "MTN"
+      },
+      "locations": {
+        "headquarters": {
+          "address": {
+            "geopoint": {
+              "lat": -33.973749784437,
+              "lon": 18.461498093311278
+            },
+            "raw": "Main Street, Newlands, Cape Tow…"
+          },
+          "city": {
+            "code": "cape-town|western-cape|za",
+            "geopoint": {
+              "lat": -33.928992,
+              "lon": 18.417396
+            },
+            "name": "Cape Town",
+            "postcode": "8001"
+          },
+          "continent": {
+            "code": "af",
+            "geopoint": {
+              "lat": 11.5024338,
+              "lon": 17.7578122
+            },
+            "name": "Africa"
+          },
+          "country": {
+            "code": "za",
+            "geopoint": {
+              "lat": -28.8166236,
+              "lon": 24.991639
+            },
+            "name": "South Africa"
+          },
+          "state": {
+            "code": "western-cape|za",
+            "geopoint": {
+              "lat": -33.546977,
+              "lon": 20.72753
+            },
+            "name": "Western Cape"
+          }
+        }
+      },
+      "meta": {
+        "mysqlId": 49334,
+        "score": 80,
+        "similarity": null,
+        "syncedAt": "phone:0adfa4b2dfT22:00:12.571Z"
+      },
+      "secondaries": {
+        "emailPatterns": [
+          {
+            "pattern": "[F].[L]",
+            "usagePercentage": 99.7036
+          },
+          {
+            "pattern": "[F]",
+            "usagePercentage": 0.1431
+          },
+          "… 4 more item(s) truncated"
+        ]
+      },
+      "socials": {
+        "facebook": {
+          "id": "mtnloaded",
+          "url": "http://www.facebook.com/mtnload…"
+        },
+        "linkedin": {
+          "id": "mtn",
+          "idNumeric": "165065",
+          "salesNavigatorUrl": "https://www.linkedin.com/sales/…",
+          "url": "https://linkedin.com/company/mt…"
+        },
+        "twitter": {
+          "id": "MTNGroup",
+          "url": "https://x.com/MTNGroup"
+        },
+        "youtube": {
+          "id": "mtngroup",
+          "url": "https://youtube.com/c/mtngroup"
+        }
+      },
+      "urls": {
+        "registrar": "http://www.lexsynergy.com/"
+      }
+    }
+  ],
+  "meta": {
+    "cost": 2,
+    "credits": 49787,
+    "currentPage": 1,
+    "firstPage": 1,
+    "freeRequest": false,
+    "lastPage": 4186,
+    "perPage": 2,
+    "total": 8372,
+    "maxScrollResultsReached": false
+  },
+  "query": [
+    {
+      "attribute": "about.industries",
+      "operator": "or",
+      "sign": "equals",
+      "values": [
+        "fintech"
+      ]
+    }
+  ],
+  "_scrubbed": true,
+  "_note": "captured live 2026-08-28 via tr…"
+}

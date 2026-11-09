@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "USA Stocks",
+    "Code": "US",
+    "OperatingMIC": "XNAS, XNYS, OTCM, XCBO",
+    "Country": "USA",
+    "Currency": "USD",
+    "CountryISO2": "US",
+    "CountryISO3": "USA"
+  },
+  {
+    "Name": "London Exchange",
+    "Code": "LSE",
+    "OperatingMIC": "XLON",
+    "Country": "UK",
+    "Currency": "GBP",
+    "CountryISO2": "GB",
+    "CountryISO3": "GBR"
+  },
+  "… 68 more item(s) truncated"
+]

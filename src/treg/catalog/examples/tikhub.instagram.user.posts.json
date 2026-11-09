@@ -1,0 +1,278 @@
+{
+  "code": 200,
+  "request_id": "411a018…",
+  "message": "Request…",
+  "message_zh": "请求成功，本次…",
+  "support": "Discord…",
+  "time": "2026-07…",
+  "time_stamp": 1785210919,
+  "time_zone": "America…",
+  "docs": "https:/…",
+  "cache_message": "This re…",
+  "cache_message_zh": "本次响应已缓存…",
+  "cache_url": "https:/…",
+  "router": "/api/v1…",
+  "params": {
+    "user_id": "2502532…",
+    "count": "5"
+  },
+  "data": {
+    "more_available": true,
+    "items": [
+      {
+        "strong_id__": "3950610…",
+        "id": "3950610…",
+        "is_meta_ai_invocation_blocked_by_author": false,
+        "fbid": 18100116490952373,
+        "deleted_reason": 0,
+        "client_cache_key": "Mzk1MDY…",
+        "integrity_review_decision": "pending",
+        "pk": 3950610611797980067,
+        "has_delayed_metadata": false,
+        "mezql_token": "",
+        "should_request_ads": false,
+        "has_privately_liked": false,
+        "collaborator_edit_eligibility": false,
+        "share_count_disabled": false,
+        "is_visual_reply_commenter_notice_enabled": true,
+        "subtype_name_for_REST__": "XDTCaro…",
+        "is_quiet_post": false,
+        "profile_grid_thumbnail_fitting_style": "UNSET",
+        "has_views_fetching_on_search_grid": false,
+        "media_type": 8,
+        "organic_tracking_token": "eyJ2ZXJ…",
+        "music_metadata": null,
+        "clips_tab_pinned_user_ids": [],
+        "is_open_to_public_submission": false,
+        "is_social_ufi_disabled": false,
+        "timeline_pinned_user_ids": [],
+        "taken_at": 1785169506,
+        "photo_of_you": false,
+        "can_see_insights_as_brand": false,
+        "fundraiser_tag": {
+          "has_standalone_fundraiser": false
+        },
+        "accessibility_caption": "Black b…",
+        "display_uri": "https:/…",
+        "is_in_profile_grid": false,
+        "profile_grid_control_enabled": false,
+        "product_type": "carouse…",
+        "subscribe_cta_visible": false,
+        "is_cutout_sticker_allowed": false,
+        "is_tagged_media_shared_to_viewer_profile_grid": false,
+        "should_show_author_pog_for_tagged_media_shared_to_profile_grid": false,
+        "meta_ai_suggested_prompts": [],
+        "gen_ai_chat_with_ai_cta_info": null,
+        "can_reply": false,
+        "is_eligible_content_for_post_roll_ad": false,
+        "related_ads_pivots_media_info": "USER_NO…",
+        "related_ads_pivots_response": {
+          "media_info": "USER_NO…",
+          "selected_ctas": []
+        },
+        "eligible_insights_entrypoints": "NONE",
+        "media_attributions_data": [],
+        "is_eligible_for_poe": false,
+        "is_eligible_for_poe_premium": false,
+        "is_eligible_for_organic_eager_refresh": false,
+        "boost_unavailable_identifier": null,
+        "boost_unavailable_reason": null,
+        "boost_unavailable_reason_v2": [],
+        "coauthor_producers": [],
+        "coauthor_producer_can_see_organic_insights": false,
+        "invited_coauthor_producers": [],
+        "is_paid_partnership": false,
+        "ig_media_sharing_disabled": false,
+        "carousel_media_count": 13,
+        "carousel_media_pending_post_count": 0,
+        "can_modify_carousel": true,
+        "carousel_media_ids": [
+          3950609506668983144,
+          "… 2 more item(s) truncated"
+        ],
+        "open_carousel_show_follow_button": false,
+        "open_carousel_submission_state": "closed",
+        "comment_inform_treatment": {
+          "action_type": null,
+          "should_have_inform_treatment": false,
+          "text": "",
+          "url": null
+        },
+        "is_photo_comments_composer_enabled_for_author": false,
+        "hide_view_all_comment_entrypoint": false,
+        "locations": [],
+        "sharing_friction_info": {
+          "should_have_sharing_friction": false,
+          "bloks_app_url": null,
+          "sharing_friction_payload": null
+        },
+        "image_versions2": {
+          "candidates": [
+            {
+              "estimated_scans_sizes": [
+                6685,
+                "… 2 more item(s) truncated"
+              ],
+              "height": 1456,
+              "scans_profile": "e35",
+              "url": "https:/…",
+              "width": 1170,
+              "is_spatial_image": false
+            },
+            "… 1 more item(s) truncated"
+          ]
+        },
+        "original_width": 1170,
+        "original_height": 1456,
+        "fb_user_tags": {
+          "in": []
+        },
+        "media_overlay_info": null,
+        "creative_config": null,
+        "is_reuse_allowed": false,
+        "igbio_product": null,
+        "carousel_media": [
+          {
+            "strong_id__": "3950609…",
+            "id": "3950609…",
+            "explore_pivot_grid": false,
+            "carousel_parent_id": "3950610…",
+            "pk": 3950609506668983144,
+            "commerciality_status": "not_com…",
+            "product_type": "carouse…",
+            "media_type": 1,
+            "accessibility_caption": "Black b…",
+            "caption": null,
+            "fb_user_tags": {
+              "in": []
+            },
+            "shop_routing_user_id": null,
+            "media_overlay_info": null,
+            "creative_config": null,
+            "sharing_friction_info": {
+              "bloks_app_url": null,
+              "should_have_sharing_friction": false,
+              "sharing_friction_payload": null
+            },
+            "taken_at": 1785169505,
+            "product_suggestions": [],
+            "display_uri": "https:/…",
+            "image_versions2": {
+              "candidates": [
+                {
+                  "estimated_scans_sizes": [
+                    6685,
+                    "… 2 more item(s) truncated"
+                  ],
+                  "height": 1456,
+                  "scans_profile": "e35",
+                  "url": "https:/…",
+                  "width": 1170,
+                  "is_spatial_image": false
+                },
+                "… 1 more item(s) truncated"
+              ]
+            },
+            "original_width": 1170,
+            "original_height": 1456,
+            "featured_products": []
+          },
+          "… 2 more item(s) truncated"
+        ],
+        "like_count": 72210,
+        "has_liked": false,
+        "hidden_likes_string_variant": -1,
+        "caption": {
+          "strong_id__": "1810011…",
+          "bit_flags": 0,
+          "created_at": 1785169508,
+          "created_at_utc": 1785169508,
+          "did_report_as_spam": false,
+          "is_ranked_comment": false,
+          "pk": "1810011…",
+          "share_enabled": false,
+          "content_type": "comment",
+          "media_id": 3950610611797980067,
+          "status": "Active",
+          "type": 1,
+          "user_id": 25025320,
+          "text": "we don’…",
+          "user": {
+            "strong_id__": "2502532…",
+            "pk": 25025320,
+            "pk_id": "2502532…",
+            "id": "2502532…",
+            "is_unpublished": false,
+            "fbid_v2": 17841400039600391,
+            "username": "instagr…",
+            "full_name": "Instagr…",
+            "is_private": false,
+            "is_verified": true,
+            "profile_pic_id": "3725434…",
+            "profile_pic_url": "https:/…"
+          },
+          "is_covered": false,
+          "private_reply_status": 0
+        },
+        "comment_count": 4976,
+        "comment_likes_enabled": true,
+        "shop_routing_user_id": null,
+        "featured_products": [],
+        "user": {
+          "strong_id__": "2502532…",
+          "fbid_v2": 17841400039600391,
+          "feed_post_reshare_disabled": false,
+          "id": "2502532…",
+          "is_unpublished": false,
+          "pk": 25025320,
+          "pk_id": "2502532…",
+          "third_party_downloads_enabled": 2,
+          "account_type": 3,
+          "can_see_quiet_post_attribution": true,
+          "account_badges": [],
+          "full_name": "Instagr…",
+          "has_anonymous_profile_picture": false,
+          "is_private": false,
+          "is_verified": true,
+          "show_account_transparency_details": true,
+          "transparency_product_enabled": false,
+          "username": "instagr…",
+          "eligible_for_text_app_activation_badge": false,
+          "fan_club_info": {
+            "autosave_to_exclusive_highlight": null,
+            "connected_member_count": null,
+            "fan_club_id": null,
+            "fan_club_name": null,
+            "has_created_ssc": null,
+            "has_enough_subscribers_for_ssc": null,
+            "is_fan_club_gifting_eligible": null,
+            "is_fan_club_referral_eligible": null,
+            "is_free_trial_eligible": null,
+            "largest_public_bc_id": null,
+            "subscriber_count": null,
+            "should_show_playlists_in_profile_tab": null,
+            "fan_consideration_page_revamp_eligiblity": null
+          },
+          "profile_pic_id": "3725434…",
+          "profile_pic_url": "https:/…"
+        },
+        "caption_is_edited": false,
+        "code": "DbTY2uS…",
+        "device_timestamp": 1785169374916185,
+        "enable_media_notes_production": false,
+        "filter_type": 0,
+        "has_views_fetching": true,
+        "like_and_view_counts_disabled": false,
+        "original_media_has_visual_reply_media": true,
+        "tya_media_related_topics": [],
+        "is_organic_product_tagging_eligible": false,
+        "can_viewer_reshare": true,
+        "has_shared_to_fb": 0,
+        "…": "3 more field(s) truncated"
+      },
+      "… 2 more item(s) truncated"
+    ],
+    "next_max_id": "3946339…",
+    "attempts": "27"
+  }
+}

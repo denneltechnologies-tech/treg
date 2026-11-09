@@ -1,0 +1,117 @@
+#!/bin/sh
+# treg CLI installer  -  curl -fsSL {BASE}/install.sh | sh
+# Installs the `treg` command and points it at this server ({BASE}).
+set -e
+
+BASE="{BASE}"
+
+# Optional token for a one-shot, fully-authed setup:
+#   curl -fsSL {BASE}/install.sh | sh -s -- --token <key>      (or: TREG_TOKEN=<key> … | sh)
+# With it, this installs the CLI + skill AND signs in + registers the MCP server into every supported
+# agent, header-authed — no browser. The key bakes in the team, so nothing else is needed. Without a
+# token, it installs the CLI + skill and prints the sign-in step (the original behavior, unchanged).
+#
+# Only the treg skill installs by default. The registry's other skills are opt-in, named with
+#   curl -fsSL {BASE}/install.sh | sh -s -- --skills lead-signals,recruit      (or: --skills all)
+TOKEN="${TREG_TOKEN:-}"
+SKILLS=""
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --token) TOKEN="${2:-}"; [ $# -gt 1 ] && shift; shift ;;
+    --token=*) TOKEN="${1#--token=}"; shift ;;
+    --skills) SKILLS="${2:-}"; [ $# -gt 1 ] && shift; shift ;;
+    --skills=*) SKILLS="${1#--skills=}"; shift ;;
+    *) shift ;;
+  esac
+done
+# Install from PyPI (fast, public, no git clone). The base package is the light CLI; the FastAPI/DB
+# server stack is the `tools-registry[server]` extra, which people who self-host install separately.
+#
+# `[proxy]` is included here on purpose. It adds only `cryptography`, which is what `treg <command>`
+# needs to generate this machine's certificate authority — and it ships as a prebuilt wheel, so there
+# is no compiler and no meaningful wait. Without it the headline feature (`treg claude`) stops on its
+# first run asking to be installed, which is a bad first minute. `pip install tools-registry` stays
+# light for anyone who wants only the plain CLI.
+SRC="tools-registry[proxy]"
+
+# The supported interpreter range — keep in sync with `requires-python` in pyproject.toml.
+# Passed explicitly because uv otherwise resolves against its DEFAULT interpreter (its own managed
+# Python first), and when that is outside the range — a machine whose uv-managed default is 3.11,
+# or 3.14+ once that ships as the OS default — the install dies on resolution instead of picking
+# (or downloading) a compatible Python. With the constraint, uv fetches one if none is installed.
+PYREQ=">=3.12,<3.14"
+
+printf '\n\033[38;5;173m▚ tools-registry\033[0m - installing the treg CLI…\n\n'
+
+if command -v uv >/dev/null 2>&1; then
+  uv tool install --force --python "$PYREQ" "$SRC"
+elif command -v pipx >/dev/null 2>&1; then
+  # pipx needs a concrete interpreter, not a range — probe for one inside PYREQ before falling
+  # back to pipx's default (which is pipx's own Python and may be outside the range).
+  PIPX_PY=""
+  for py in python3.13 python3.12; do
+    if command -v "$py" >/dev/null 2>&1; then PIPX_PY="$py"; break; fi
+  done
+  if [ -n "$PIPX_PY" ]; then
+    pipx install --force --python "$PIPX_PY" "$SRC"
+  else
+    pipx install --force "$SRC"
+  fi
+elif command -v pip3 >/dev/null 2>&1; then
+  # pip can only install into the interpreter it belongs to. Outside PYREQ it prints a wall of
+  # "Ignored the following versions" and dies — say what is wrong and how to fix it instead.
+  if ! pip3 --version 2>/dev/null | grep -qE '\(python 3\.1[23]\)'; then
+    echo "pip3 belongs to $(pip3 --version 2>/dev/null | sed -n 's/.*(python \([0-9.]*\)).*/Python \1/p'), but treg needs Python 3.12 or 3.13." >&2
+    echo "Easiest fix — install uv (it fetches a matching Python by itself), then rerun this command:" >&2
+    echo "  curl -LsSf https://astral.sh/uv/install.sh | sh" >&2
+    exit 1
+  fi
+  pip3 install --user --upgrade "$SRC"
+else
+  echo "Need Python 3.12 or 3.13 and one of: uv (recommended), pipx, or pip3." >&2
+  echo "Install uv:  https://docs.astral.sh/uv/getting-started/installation/" >&2
+  exit 1
+fi
+
+# point the CLI at this server (falls back silently on older CLIs)
+treg config --base-url "$BASE" >/dev/null 2>&1 || true
+
+# Fetched as {BASE}/i/<code>: leave the code for the next `treg login`. Empty on the plain URL.
+AD_LINK="{AD_LINK}"
+if [ -n "$AD_LINK" ]; then
+  mkdir -p "$HOME/.treg" 2>/dev/null && printf '%s\n' "$AD_LINK" > "$HOME/.treg/ad-link" 2>/dev/null || true
+fi
+
+# install the official treg skill into every detected agent so it knows how to use treg.
+# `treg skill bootstrap` fans out across all supported agents (Claude Code, Cursor, Codex, Gemini,
+# Copilot, OpenCode, Windsurf, …). A CLI too old for `--skills` still installs the treg skill
+# without it; one too old for bootstrap gets the Claude-only drop.
+if [ -n "$SKILLS" ] && treg skill bootstrap --skills "$SKILLS" 2>/dev/null; then
+  :
+elif treg skill bootstrap 2>/dev/null; then
+  :
+else
+  SKILL_DIR="$HOME/.claude/skills/treg"
+  if mkdir -p "$SKILL_DIR" 2>/dev/null && curl -fsSL "$BASE/skill.md" -o "$SKILL_DIR/SKILL.md" 2>/dev/null; then
+    printf '\033[32m✓\033[0m Installed the \033[1mtreg\033[0m skill for Claude Code (%s)\n' "$SKILL_DIR"
+  fi
+fi
+
+# One-shot authed setup when a token was passed: sign in (the key bakes in the team) and register the
+# MCP server into every supported agent, header-authed. Both are best-effort — a failure here never
+# fails the install, since the CLI + skill are already in place.
+if [ -n "$TOKEN" ]; then
+  # Show login's own error: it can fail after the token was accepted.
+  if LOGIN_ERR=$(treg login --token "$TOKEN" 2>&1 >/dev/null); then
+    printf '\033[32m✓\033[0m Signed in.\n'
+    treg mcp install 2>/dev/null || true
+  else
+    printf '\033[33m!\033[0m Sign-in with that token failed: %s\n' "$(printf '%s\n' "$LOGIN_ERR" | tail -n 1)"
+    printf '  Run \033[1mtreg login\033[0m to sign in.\n'
+  fi
+  printf '\n\033[32m✓\033[0m treg is set up. Docs & tutorial:  %s/tutorial\n\n' "$BASE"
+else
+  printf '\n\033[32m✓\033[0m Installed \033[1mtreg\033[0m. Next:\n'
+  printf '    \033[38;5;173mtreg login\033[0m      # sign in (GitHub or email) - first login registers you\n'
+  printf '\nDocs & interactive tutorial:  %s/tutorial\n\n' "$BASE"
+fi

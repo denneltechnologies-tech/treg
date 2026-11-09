@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin",
+  "symbol": "btc",
+  "name": "Bitcoin",
+  "web_slug": "bitcoin",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 10,
+  "hashing_algorithm": "SHA-256",
+  "categories": [
+    "Smart C…",
+    "… 2 more item(s) truncated"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Bitcoin…"
+  },
+  "links": {
+    "homepage": [
+      "http://…"
+    ],
+    "whitepaper": "https:/…",
+    "blockchain_site": [
+      "https:/…",
+      "… 2 more item(s) truncated"
+    ],
+    "official_forum_url": [
+      "https:/…"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitcoin",
+    "facebook_username": "bitcoin…",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https:/…",
+    "repos_url": {
+      "github": [
+        "https:/…",
+        "… 1 more item(s) truncated"
+      ],
+      "bitbucket": []
+    }
+  },
+  "…": "12 more field(s) truncated"
+}

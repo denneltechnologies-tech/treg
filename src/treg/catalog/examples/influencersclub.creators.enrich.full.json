@@ -1,0 +1,141 @@
+{
+  "result": {
+    "instagram": {
+      "userid": "5288171…",
+      "engagement_percent": 0.276,
+      "uses_link_in_bio": false,
+      "profile_picture": "https:/…",
+      "full_name": "NASA",
+      "follower_count": 104398568,
+      "posting_frequency_recent_months": 10.329999923706055,
+      "biography": "Making …",
+      "is_verified": true,
+      "username": "nasa",
+      "exists": true,
+      "account_type": 2,
+      "is_private": false,
+      "is_business_account": true,
+      "media_count": 4887,
+      "following_count": 92,
+      "video_content_creator": true,
+      "most_recent_post_date": "2026-08…",
+      "reels_percentage_last_12_posts": 33.33,
+      "has_merch": false,
+      "promotes_affiliate_links": false,
+      "has_paid_partnership": true,
+      "avg_likes": 538528.83,
+      "avg_comments": 1994.25,
+      "likes_median": 286939.5,
+      "comments_median": 1508.0,
+      "has_profile_pic": true,
+      "streamer": false,
+      "profile_picture_hd": "https:/…",
+      "income": {
+        "min": 3645000,
+        "max": 4738700,
+        "currency": "USD"
+      },
+      "creator_follower_growth": {
+        "6_months_ago": 8.8100004196167,
+        "12_months_ago": 9.100000381469727,
+        "3_months_ago": 6.96999979019165,
+        "9_months_ago": 9.4399995803833
+      },
+      "reels": {
+        "avg_like_count": 218618.25,
+        "avg_view_count": 6822527.5,
+        "comments_count": [
+          986,
+          "… 2 more item(s) truncated"
+        ],
+        "median_like_count": 215233.0,
+        "median_view_count": 6711303.0
+      },
+      "hashtags": [
+        "NASA",
+        "… 2 more item(s) truncated"
+      ],
+      "niche_class": [
+        "Technol…"
+      ],
+      "niche_sub_class": [],
+      "locations": [],
+      "tagged": [
+        {
+          "username": "nasaweb…",
+          "userid": "5493138…"
+        }
+      ],
+      "links_in_bio": [
+        "https:/…"
+      ],
+      "hashtags_count": [
+        {
+          "name": "NASA",
+          "count": 10
+        },
+        "… 2 more item(s) truncated"
+      ],
+      "brands_found": [
+        "ISS"
+      ],
+      "…": "4 more field(s) truncated"
+    },
+    "twitch": {
+      "profileImageURL": "https:/…",
+      "first_name": "@nasa",
+      "avg_views": 1028440.1875,
+      "total_followers": 1760360,
+      "user_id": "1519209…",
+      "username": "nasa"
+    },
+    "twitter": {
+      "userid": "1134828…",
+      "username": "nasa",
+      "full_name": "NASA",
+      "follower_count": 90767256,
+      "profile_picture": "https:/…",
+      "is_verified": false,
+      "engagement_percent": 0.05000000074505806
+    },
+    "youtube": {
+      "id": "UCLA_Di…",
+      "custom_url": "@nasa",
+      "profile_picture": "https:/…",
+      "is_verified": false,
+      "engagement_percent": 3.569999933242798,
+      "first_name": "@nasa",
+      "subscriber_count": 15000000
+    },
+    "has_link_in_bio": false,
+    "speaking_language": "en",
+    "twitter_link": "https:/…",
+    "has_brand_deals": true,
+    "youtube_link": "https:/…",
+    "instagram_link": "https:/…",
+    "first_name": "@nasa",
+    "email": "public-…",
+    "is_business": true,
+    "email_type": "role_ba…",
+    "twitch_link": "https:/…",
+    "is_creator": false,
+    "location": "United …",
+    "gender": "female",
+    "creator_has": {
+      "twitter": true,
+      "youtube": true,
+      "instagram": true,
+      "twitch": true
+    },
+    "other_links": [
+      "https:/…",
+      "… 2 more item(s) truncated"
+    ],
+    "links_in_bio": [
+      "https:/…",
+      "… 2 more item(s) truncated"
+    ]
+  },
+  "credits_cost": 1.0,
+  "trial_searches_left": 9
+}

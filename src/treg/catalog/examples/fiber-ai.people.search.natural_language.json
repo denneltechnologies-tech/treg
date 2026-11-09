@@ -1,0 +1,172 @@
+{
+  "output": {
+    "searchId": "2Q0Mpwf…",
+    "parsedParams": {
+      "queryType": "structu…",
+      "companySearchParams": {
+        "industriesV2": {
+          "anyOf": [
+            "Finance"
+          ]
+        },
+        "headquartersLocation": {
+          "unionAll": [
+            "… {3 field(s) truncated}"
+          ]
+        },
+        "tags": {
+          "anyOf": [],
+          "allOf": [],
+          "noneOf": []
+        }
+      }
+    },
+    "nextPageToken": "gAAAAAB…",
+    "unsupportedFilters": null,
+    "autoLoosenings": [
+      "Broaden…"
+    ],
+    "notices": null,
+    "results": {
+      "resultType": "compani…",
+      "companies": [
+        {
+          "linkedin_id": "-429282…",
+          "accelerator_statuses": [],
+          "accelerators": null,
+          "blog_urls": [],
+          "custom_data": null,
+          "domains": [
+            "wellsfa…"
+          ],
+          "emails": [
+            "marsha.…",
+            "… 2 more item(s) truncated"
+          ],
+          "phone_numbers": [
+            "1612667…",
+            "… 2 more item(s) truncated"
+          ],
+          "employee_count_consensus": {
+            "gte": 241241,
+            "lte": 241241
+          },
+          "facebook_urls": [
+            "https:/…",
+            "… 2 more item(s) truncated"
+          ],
+          "fortune_rankings": [
+            "… {3 field(s) truncated}"
+          ],
+          "founded_on_consensus": "1852-03…",
+          "github_usernames": [],
+          "instagram_handles": [
+            "wellsfa…"
+          ],
+          "latest_funding_consensus": null,
+          "linkedin_slugs": [
+            "wells-f…",
+            "… 1 more item(s) truncated"
+          ],
+          "linkedin_primary_slug": "wellsfa…",
+          "li_org_id": "1235",
+          "li_category": "C",
+          "li_job_posts_stats": {
+            "total_count": 9500,
+            "seniority_stats": "… {7 field(s) truncated}",
+            "employment_type_stats": "… {3 field(s) truncated}",
+            "country_location_stats": "… {10 field(s) truncated}",
+            "puree_job_functions_stats": "… {28 field(s) truncated}",
+            "standard_industries_stats": "… {4 field(s) truncated}",
+            "job_location_type_stats": "… {1 field(s) truncated}"
+          },
+          "li_description": "Wells F…",
+          "li_follower_count": 3078840,
+          "li_headline": "Send mo…",
+          "li_industries": [
+            "… {2 field(s) truncated}"
+          ],
+          "li_locations": null,
+          "li_specialties": [
+            "Busines…",
+            "… 2 more item(s) truncated"
+          ],
+          "location_consensus": {
+            "street_address": "420 Mon…",
+            "neighborhood": null,
+            "city": "San Fra…",
+            "state_name": "Califor…",
+            "state_code": "CA",
+            "county": null,
+            "postal_code": "94103",
+            "country_code": "USA",
+            "country_name": "United …",
+            "coordinates": "… {2 field(s) truncated}",
+            "timezone": null,
+            "full_address": "San Fra…",
+            "formatted_address": "San Fra…"
+          },
+          "locations_stats": {
+            "HKG": 1,
+            "IND": 1,
+            "USA": 2,
+            "X-AMERICAS": 2,
+            "X-ANGLOSPHERE": 2,
+            "X-APAC": 2,
+            "X-ASIA": 2,
+            "X-BRICS": 1,
+            "X-EAST_ASIA": 1,
+            "X-G20": 3,
+            "X-NORTH_AMERICA": 2,
+            "X-OECD": 2,
+            "X-SOUTH_ASIA": 1
+          },
+          "market_cap_usd": 201265000000,
+          "naics_codes": [
+            "522110",
+            "… 2 more item(s) truncated"
+          ],
+          "names": [
+            "Wells F…",
+            "… 2 more item(s) truncated"
+          ],
+          "preferred_name": "Wells F…",
+          "preferred_name_word_count": 2,
+          "revenue_estimate": {
+            "sources": "… [0 item(s) truncated]",
+            "fiscal_year": 2025,
+            "value_usd": "… {2 field(s) truncated}"
+          },
+          "standard_industries": [
+            "Finance",
+            "… 1 more item(s) truncated"
+          ],
+          "status_consensus": "public",
+          "stock_info_consensus": {
+            "ticker": "WFC",
+            "exchange": "NYSE"
+          },
+          "tags": [],
+          "total_funding_consensus": null,
+          "twitter_handles": [
+            "wellsfa…"
+          ],
+          "…": "43 more field(s) truncated"
+        }
+      ]
+    }
+  },
+  "chargeInfo": {
+    "method": "charged…",
+    "creditsCharged": 3,
+    "lowCreditAlert": {
+      "getMoreCreditsUrl": "https:/…",
+      "message": "Your cr…",
+      "availableCredits": 481
+    }
+  },
+  "advice": [
+    "Explore…",
+    "… 1 more item(s) truncated"
+  ]
+}

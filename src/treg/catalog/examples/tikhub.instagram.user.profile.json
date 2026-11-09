@@ -1,0 +1,82 @@
+{
+  "code": 200,
+  "request_id": "33f736c…",
+  "message": "Request…",
+  "message_zh": "请求成功，本次…",
+  "support": "Discord…",
+  "time": "2026-07…",
+  "time_stamp": 1785210916,
+  "time_zone": "America…",
+  "docs": "https:/…",
+  "cache_message": "This re…",
+  "cache_message_zh": "本次响应已缓存…",
+  "cache_url": "https:/…",
+  "router": "/api/v1…",
+  "params": {
+    "username": "instagr…"
+  },
+  "data": {
+    "data": {
+      "user": {
+        "ai_agent_owner_username": null,
+        "ai_agent_type": null,
+        "biography": "Discove…",
+        "bio_links": [
+          {
+            "title": "Close F…",
+            "lynx_url": "https:/…",
+            "url": "https:/…",
+            "link_type": "externa…"
+          },
+          "… 1 more item(s) truncated"
+        ],
+        "fb_profile_biolink": null,
+        "biography_with_entities": {
+          "raw_text": "Discove…",
+          "entities": []
+        },
+        "blocked_by_viewer": false,
+        "restricted_by_viewer": null,
+        "country_block": false,
+        "eimu_id": "1179434…",
+        "external_url": "https:/…",
+        "external_url_linkshimmed": "https:/…",
+        "edge_followed_by": {
+          "count": 685855155
+        },
+        "fbid": "1784140…",
+        "followed_by_viewer": false,
+        "edge_follow": {
+          "count": 264
+        },
+        "follows_viewer": false,
+        "full_name": "Instagr…",
+        "group_metadata": null,
+        "has_ar_effects": false,
+        "has_clips": true,
+        "has_guides": false,
+        "has_channel": false,
+        "has_blocked_viewer": false,
+        "highlight_reel_count": 10,
+        "has_onboarded_to_text_post_app": true,
+        "has_requested_viewer": false,
+        "hide_like_and_view_counts": false,
+        "id": "2502532…",
+        "is_business_account": false,
+        "is_professional_account": true,
+        "is_supervision_enabled": false,
+        "is_guardian_of_viewer": false,
+        "is_supervised_by_viewer": false,
+        "is_supervised_user": false,
+        "is_embeds_disabled": false,
+        "is_joined_recently": false,
+        "guardian_id": null,
+        "business_address_json": null,
+        "business_contact_method": "UNKNOWN",
+        "…": "29 more field(s) truncated"
+      }
+    },
+    "status": "ok",
+    "attempts": "26"
+  }
+}

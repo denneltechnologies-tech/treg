@@ -1,0 +1,61 @@
+{
+  "version": "0.1.202…",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0705 …",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "0728065…",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0618 …",
+      "cost": 0,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "… 2 more item(s) truncated"
+      ],
+      "data": {
+        "api": "appendi…",
+        "function": "user_da…"
+      },
+      "result": [
+        {
+          "login": "person@…",
+          "timezone": "Austral…",
+          "rates": {
+            "limits": "… {2 field(s) truncated}",
+            "statistics": "… {2 field(s) truncated}"
+          },
+          "money": {
+            "total": 1,
+            "balance": 0.73901,
+            "limits": "… {2 field(s) truncated}",
+            "statistics": "… {2 field(s) truncated}"
+          },
+          "price": {
+            "keywords_data": "… {19 field(s) truncated}",
+            "merchant": "… {8 field(s) truncated}",
+            "ai_optimization": "… {5 field(s) truncated}",
+            "serp": "… {12 field(s) truncated}",
+            "appendix": "… {2 field(s) truncated}",
+            "app_data": "… {12 field(s) truncated}",
+            "backlinks": "… {24 field(s) truncated}",
+            "business_data": "… {11 field(s) truncated}",
+            "content_analysis": "… {12 field(s) truncated}",
+            "dataforseo_labs": "… {39 field(s) truncated}",
+            "domain_analytics": "… {5 field(s) truncated}",
+            "on_page": "… {23 field(s) truncated}"
+          },
+          "backlinks_subscription_expiry_date": "2050-01…",
+          "llm_mentions_subscription_expiry_date": "2050-01…"
+        }
+      ]
+    }
+  ],
+  "_scrubbed": true,
+  "_scrubbed_note": "account…"
+}

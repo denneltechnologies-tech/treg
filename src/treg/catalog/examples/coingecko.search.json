@@ -1,0 +1,59 @@
+{
+  "coins": [
+    {
+      "id": "solana",
+      "name": "Solana",
+      "api_symbol": "solana",
+      "symbol": "SOL",
+      "market_cap_rank": 7,
+      "thumb": "https://coin-images.coingecko.com/coins/images/4128/thumb/solana.png",
+      "large": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png"
+    },
+    {
+      "id": "solana-name-service",
+      "name": "Solana Name Service",
+      "api_symbol": "solana-name-service",
+      "symbol": "SNS",
+      "market_cap_rank": 2442,
+      "thumb": "https://coin-images.coingecko.com/coins/images/55691/thumb/0cxkA759_400x400.jpg",
+      "large": "https://coin-images.coingecko.com/coins/images/55691/large/0cxkA759_400x400.jpg"
+    },
+    "… 23 more item(s) truncated"
+  ],
+  "exchanges": [
+    {
+      "id": "pancakeswap-v3-solana",
+      "name": "Pancakeswap V3 (Solana)",
+      "market_type": "spot",
+      "thumb": "https://coin-images.coingecko.com/markets/images/21995/thumb/pancakeswap.jpg",
+      "large": "https://coin-images.coingecko.com/markets/images/21995/large/pancakeswap.jpg"
+    }
+  ],
+  "icos": [],
+  "categories": [
+    {
+      "id": "token-2022",
+      "name": "Solana Token-2022"
+    },
+    {
+      "id": "solana-meme-coins",
+      "name": "Solana Meme"
+    },
+    "… 1 more item(s) truncated"
+  ],
+  "nfts": [
+    {
+      "id": "solanascape-party-hats",
+      "name": "Solanascape Party Hats",
+      "symbol": "SSPHAT",
+      "thumb": "missing_thumb.png"
+    },
+    {
+      "id": "solana-dogs",
+      "name": "Solana Dogs🦴",
+      "symbol": "SDOG",
+      "thumb": "https://coin-images.coingecko.com/nft_contracts/images/4768/thumb/solana-dogs.jpg"
+    },
+    "… 11 more item(s) truncated"
+  ]
+}
