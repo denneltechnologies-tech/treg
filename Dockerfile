@@ -35,11 +35,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Install uv for fast, reliable, reproducible dependency resolution (>=0.12)
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Copy dependency files
-COPY pyproject.toml uv.lock README.md LICENSE ./
+# Copy dependency files and build script
+COPY pyproject.toml uv.lock README.md LICENSE hatch_build.py ./
 
-# Install python dependencies with server and proxy extras
-RUN uv sync --locked --no-dev --extra server --extra proxy
+# Step 1: Install 3rd-party dependencies first without building the project
+RUN uv sync --no-install-project --locked --no-dev --extra server --extra proxy
 
 # Copy compiled frontend & web assets from stage 1
 COPY --from=frontend-builder /app/src/treg/web/dashboard ./src/treg/web/dashboard
@@ -47,6 +47,9 @@ COPY --from=frontend-builder /app/src/treg/web/vendor ./src/treg/web/vendor
 
 # Copy application source
 COPY . /app
+
+# Step 2: Install project itself (dashboard assets now present for hatch_build.py)
+RUN uv sync --locked --no-dev --extra server --extra proxy
 
 # Ensure data directory exists for persistent sqlite and cache storage
 RUN mkdir -p /data
